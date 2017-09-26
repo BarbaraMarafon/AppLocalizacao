@@ -17,11 +17,56 @@
         tools:layout_editor_absoluteY="16dp" />
 
     <Button
-        android:id="@+id/button"
+        android:id="@+id/btnPL"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:text="Pegar Localização"
         android:textSize="18sp"
         tools:layout_editor_absoluteX="89dp"
-        tools:layout_editor_absoluteY="231dp" />
+        tools:layout_editor_absoluteY="413dp" />
+
+    <TextView
+        android:id="@+id/textLatitude"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Latitude:"
+        android:textSize="24sp"
+        tools:layout_editor_absoluteX="46dp"
+        tools:layout_editor_absoluteY="89dp" />
+
+    <TextView
+        android:id="@+id/textLongitude"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Longitude:"
+        android:textSize="24sp"
+        tools:layout_editor_absoluteX="46dp"
+        tools:layout_editor_absoluteY="147dp" />
+
+    <TextView
+        android:id="@+id/textCidade"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Cidade:"
+        android:textSize="24sp"
+        tools:layout_editor_absoluteX="46dp"
+        tools:layout_editor_absoluteY="209dp" />
+
+    <TextView
+        android:id="@+id/textEstado"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Estado:"
+        android:textSize="24sp"
+        tools:layout_editor_absoluteX="46dp"
+        tools:layout_editor_absoluteY="273dp" />
+
+    <TextView
+        android:id="@+id/textPais"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="País:"
+        android:textSize="24sp"
+        tools:layout_editor_absoluteX="46dp"
+        tools:layout_editor_absoluteY="328dp" />
 </android.support.constraint.ConstraintLayout>
